@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet" href="Contant.css" type="text/css">
+        <title>Contact</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container mt-3 d-flex align-items-center">
+                <h2 class="font mr-auto"><a href="#">SolidCare</a></h2>
+                <div
+                    class="col-sm d-flex align-items-center justify-content-end">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item"></li>
+                        <a href="#"><button
+                                class="button-brown">LET'S TALK</button></a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <body>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <!-- Content on the left column -->
+                        <h2>Feel free to keep in touch</h2>
+                        <p>We are here to help you with any inquiries you may
+                            have
+                            about our products and services. Please feel free to
+                            call or email us, or use our contact form to get in
+                            touch with us. We look forward to hearing from you!</p>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Form on the right column -->
+                        <form class="elementor-form" method="post"
+                            name="New Form">
+                            <!-- Form fields -->
+                            <!-- Name -->
+                            <div class="form-group">
+                                <label for="form-field-name">Name</label>
+                                <input type="text" name="form_fields[name]"
+                                    id="form-field-name" class="form-control"
+                                    required>
+                            </div>
+                            <!-- Email -->
+                            <div class="form-group">
+                                <label for="form-field-email">Email</label>
+                                <input type="email" name="form_fields[email]"
+                                    id="form-field-email" class="form-control"
+                                    required>
+                            </div>
+                            <!-- Subject -->
+                            <div class="form-group">
+                                <label for="form-field-field_ff1b58b">Subject</label>
+                                <input type="text"
+                                    name="form_fields[field_ff1b58b]"
+                                    id="form-field-field_ff1b58b"
+                                    class="form-control">
+                            </div>
+                            <!-- Message -->
+                            <div class="form-group">
+                                <label for="form-field-message">Message</label>
+                                <textarea name="form_fields[message]"
+                                    id="form-field-message" class="form-control"
+                                    rows="4"></textarea>
+                            </div>
+                            <!-- Submit Button -->
+                        </form>
+                        <a
+                            onclick="document.getElementById('contact-form').submit();"><button
+                                class="btn btn-primary">Send MESSAGE</button>
+                        </a>
+                        <div class="status"></div>
+                        <!-- <button type="submit" class="btn btn-primary">SEND
+                            MESSAGE</button> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

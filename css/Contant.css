@@ -1,0 +1,43 @@
+.button-brown {
+    background-color: #673657;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.nav-link {
+    color: black;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.header {
+    background-color: #ffff;
+    display: flex;
+
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.larger-column {
+    flex: 2;
+    padding: 10px;
+}
+
+.font-white{
+    font-family: 'Noto Serif', sans-serif;
+    color: white;
+}
+
